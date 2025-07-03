@@ -142,7 +142,11 @@
             <input type="email" id="email" name="email" placeholder="exemplo@email.com" required />
 
             <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" pattern="\(\d{2}\) \d{4,5}-\d{4}" required />
+           <input type="tel" id="telefone" name="telefone"
+       placeholder="(12) 34567-8901"
+       pattern="\(?\d{2}\)?[\s-]?\d{4,5}-\d{4}"
+       required />
+
 
             <label for="senha">Senha</label>
             <input type="password" id="senha" name="senha" placeholder="Crie uma senha" minlength="6" required />
